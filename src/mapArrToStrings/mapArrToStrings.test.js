@@ -11,7 +11,7 @@ describe("mapArrToStrings", () => {
       "3",
     ]);
   });
-  test("rmpty array", () => {
+  test("empty array", () => {
     expect(mapArrToStrings([])).toEqual([]);
   });
   test("correct", () => {
